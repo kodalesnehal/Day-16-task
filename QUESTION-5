@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+#blue
+ {
+   background-color: blueviolet;
+   height: 100px;
+   width: 100px;
+   
+   font-size: larger;
+   
+ }
+</style>
+<script>
+$(document).ready(function(){
+  $("#b1").click(function()
+  {
+    $("p").hide(function()
+    {
+        alert("done with hiding")
+    })
+  })
+})
+</script>
+</head>
+<body>
+ 
+<p>I am Snehal Kodale.I am from Mumbai.I have completed my graduation from CSC college 
+		and I have also completed an my post graduation from VITA Mumbai.
+		I have five members in my family.
+
+</p>
+
+<button id='b1'>Hide</button>
+
+
+
+</body>
+</html>

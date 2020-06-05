@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+ 
+</style>
+<script>
+$(document).ready(function(){
+  $("#h").mouseenter(function()
+  {
+      $(this).fadeOut()
+  })
+})
+</script>
+</head>
+<body>
+
+<h3 id="h">snehal kodale</h3>
+</body>
+</html>
